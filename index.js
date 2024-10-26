@@ -5,7 +5,7 @@ import router from './routes/index.js'
 import routerOne from './routes/daily.js'
 import routerTwo from './routes/geolocate.js'
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT
 
 const app = express()
 //app.use(express.urlencoded({extended: true}));
